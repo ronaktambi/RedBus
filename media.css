@@ -1,0 +1,392 @@
+@media(max-width:1280px) {
+    .nav {
+        width: 90%;
+    }
+
+    #ticket {
+        width: 35%;
+    }
+
+    .text {
+        width: 90%;
+        left: 60px;
+    }
+
+    #booking {
+        width: 35%;
+    }
+
+    #none {
+        display: none;
+    }
+
+    #date div {
+        width: 100%;
+    }
+
+    #search {
+        left: 430px;
+    }
+
+    .book {
+        width: 90%;
+    }
+
+    .get {
+        width: 90%;
+    }
+
+    #off p {
+        font-size: 18px;
+    }
+
+    #three div {
+        padding-right: 30px;
+    }
+
+    .testimonials {
+        width: 90%;
+    }
+
+    #testimoni div {
+        width: 20%;
+    }
+
+    #end {
+        width: 90%;
+    }
+
+    #ending {
+        width: 90%;
+    }
+
+    #last {
+        width: 90%;
+    }
+
+    .grab {
+        width: 90%;
+    }
+
+    .unlock {
+        width: 90%;
+    }
+
+    .accordian {
+        width: 90%;
+    }
+}
+
+
+@media(max-width:1024px) {
+    #search {
+        left: 310px;
+    }
+}
+@media(max-width:996px){
+    #end{
+        padding: 25px;
+    }
+}
+@media(max-width:768px) {
+ 
+    .nav {
+        width: 100%;
+        
+    }
+    #booking {
+        display: none;
+    }
+    #ticket {
+        width: 70%;
+    }
+
+    .from {
+        display: block;
+    }
+
+    .from div {
+        width: 100%;
+    }
+
+    #search {
+        top: 260px;
+        left: 200px;
+    }
+
+    #book {
+        border: none;
+    }
+
+    #date {
+        border: none;
+    }
+
+    .testimonials {
+        width: 100%;
+    }
+
+    #testimoni div {
+        width: 25%;
+    }
+
+    #end {
+        width: 100%;
+    }
+
+    #ending {
+        width: 100%;
+    }
+
+    #last {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .grab {
+        width: 100%;
+    }
+
+    .unlock {
+        width: 100%;
+        padding: 0px;
+        justify-content: space-evenly;
+    }
+
+    .accordian {
+        width: 100%;
+    }
+
+    .book {
+        width: 100%;
+    }
+    .get {
+        width: 100%;
+        padding: 20px 0px 20px 0px;
+        justify-content: space-around; 
+    }
+    #three{
+        display: block;
+    }
+    #three div{
+        padding-right: 0px;
+        padding: 2px;
+    }
+    #four{
+        text-align: center;
+    }
+    #apr{
+        width: 100%;
+    }
+   #may{
+    width: 100%;
+   }
+   .unlock button{
+    padding: 12px 60px 12px 60px;
+   }
+   #end{
+    justify-content: space-evenly;
+    padding: 0px;
+    padding-top: 20px;
+   }
+   #last i{
+    padding: 0px;
+   }
+   #ending p{
+    padding-left: 18px;
+    font-size: 15px;
+   }
+   #main{
+    top: 0px;
+    text-align: left;
+    align-items: first baseline;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+   }
+   #img2{
+    padding: 20px;
+   }
+ 
+}
+
+@media(max-width:768px){
+    #bus{
+        display: none;
+    }
+    #ticket{
+        width: 100%;
+    }
+    #img1:hover{
+        border: none;
+    }        
+    #search {
+        top: 260px;
+        left: 200px;
+        /* position: static; */
+        /* width: 100%; */
+    }
+    .text{
+        width: 90%;
+        margin: auto;
+        left: 25px;
+    }
+
+}
+@media(max-width:541px){
+    #search{
+        left: 90px;
+    }
+}
+@media(max-width:426px){
+    .bg-img{
+        background-image: none;
+    }
+    #hidden{
+        display: block;
+    }
+    .text{
+        top: 20px;
+    }
+    #search{
+        top: 280px;
+        left: 40px;
+    }
+    .book{
+        padding-top: 100px;
+    }
+    .get{
+        flex-direction: column;
+
+    }
+    #four button{
+        padding: 10px 80px 10px 80px;
+        margin-top: 15px;
+    }
+    #four p{
+        display: none;
+    }
+    #testimoni{
+        flex-direction: column;    
+    }
+    #testimoni div{
+        width: 80%;
+    }
+    #test{
+        text-align: center;
+    }
+    #main{
+        text-align: center;
+        align-items: center;
+    }
+    #qr{
+        display: none;
+    }
+    .unlock{
+        flex-direction: column;
+    }
+    #unlo{
+        padding-left: 10px;
+    }
+    #unlo h5{
+        font-size: 15px;
+    }
+    #unlo p{
+        padding-top: 2px;
+    }
+    .unlock button{
+        padding: 15px 100px 15px 100px;
+    }
+    .accordian{
+        text-align: center;
+    }
+    .accordian summary{
+        font-size: 17px;
+    }
+    summary::after{
+        content:"";
+    }
+    #end{
+        display: block;
+        padding: 3px;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    #end div{
+        border-bottom: 1px solid black;
+    }
+    #end div li{
+        line-height: 2;
+    }
+    #ending{
+        flex-direction: column;
+    }
+    #last{
+        flex-direction: column;
+    }
+    #last p{
+        padding-left: 20px;
+    }
+    #last i{
+        padding-left: 15px;
+    }
+    .unlock{
+        margin-top: 30px;
+        background-color: white;
+    }
+    #main{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media(max-width: 400px){
+    #search{
+        left: 25px;
+    }
+     
+}
+@media(max-width:336px){
+    #search{
+        left: 15px;
+    }
+}
+@media(max-width:376px){
+ 
+    .text{
+
+        width: 100%;
+        left: 0px;
+    }
+    
+    #book p{
+        font-size: 15px;
+    }
+    #img2{
+        padding: 0px;
+    }
+    #second{
+        padding: 0px;
+        margin-top: 50px;
+    }
+     #main{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media(max-width:321px){
+    #search{
+        left: 15px;
+        padding: 15px 20px 15px 70px;
+    }
+    #book p{
+        font-size: 12px;
+    }
+    #second{
+        margin-top: 30px;
+    }
+    #main{
+        width: 100%;
+        margin: auto;
+    }
+}

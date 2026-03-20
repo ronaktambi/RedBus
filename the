@@ -1,0 +1,262 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDBUS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="redbus.png">
+</head>
+
+<body>
+    <section class="nav">
+        <div id="ticket">
+            <div id="img1"><a href=""><img class="" src="redbus.png" alt=""></a></div>
+            <div id="img2"><a href=""><img src="redbus.png" alt=""></a>
+                <p>Bus Ticket</p>
+            </div>
+            <div><a href=""><img src="train-tic..svg" alt=""></a>
+                <p>Train Ticket</p>
+            </div>
+        </div>
+        <div id="booking">
+            <div><a href=""><i class="bi bi-list"></i>Bookings</a></div>
+            <div><a href=""><i class="bi bi-question-circle"></i>Help ?</a></div>
+            <div><a href=""><i class="bi bi-person-square"></i>Account</a></div>
+        </div>
+    </section>
+    <div class="bg">
+        <div id="first">
+            <h1>India's No. 1 online bus ticket booking site</h1>
+            <div id="second">
+                <i class="bi bi-building-up"><a href="">FROM</a></i>
+                <i class="bi bi-building-down">TO</i>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html> -->
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+
+}
+.bg{
+    background-image:url("bg-img.webp");
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-bottom: 800px;
+    position: relative;
+}
+#heading{
+    width: 80%;
+}
+.bg h1{
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    width: 26%;
+    font-size: 40px;
+}
+ */
+
+  <div class="bg">
+        <div id="head">
+            <h1>India's No. 1 online bus ticket booking site</h1>
+
+            <div id="from">
+
+                <div id="first">
+                    <div>
+                        <i class="bi bi-building-up"></i>
+                        <input type="text" placeholder="FROM">
+                    </div>
+                    <div><i class="bi bi-building-down"></i>
+                        <input type="text" placeholder="TO">
+                    </div>
+                </div>
+                <div id="second">
+                    <div>
+                        <i class="bi bi-calendar3"></i>
+                        
+                    </div>
+                    <div id="date"> <h5>Date of Journey</h5>
+                        <p>17Mar,2026<sub>(Today)</sub></p></div>
+                    <div><button>Today</button>
+                    <button style="color: white;background-color: #F1CECA;">Tomorrow</button></div>
+                </div>
+                <div id="third">
+                    <div><img src="female.svg" alt="">
+                        <p>Booking for Women</p>
+                        <a href="">know more</a>
+                    </div>
+                    <div><button></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    #head{
+    width: 80%;
+    margin: auto;
+    position: relative ;
+    top: 150px;
+}
+
+.bg h1{
+    width: 35%;
+    color: white;
+    font-size: 45px;
+}
+#from{
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    padding: 30px;
+}
+#from div{
+    width: 33%;
+    align-items: center;
+}
+#first{
+    display: flex !important;
+    border: 1px solid black;
+    border-radius: 25px ;
+}
+#first div{
+    align-content: center;
+    display: flex;
+    width: 50%;
+}
+#first div input{
+    border: none;
+    outline: none;
+}
+#second{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 25px ;
+}
+#second button{
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#third{
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+}
+#third div{
+    display: flex;
+    justify-content: space-evenly;
+   margin: auto;
+}
+#third button{
+    padding: 15px 80px 12px 15px ;
+    border-radius: 10px;
+    /* border: none; */
+    cursor: pointer;
+}
+#second i{
+    padding-left: 80px;
+}
+#date p{
+    padding-right: 10px;
+}
+#date p sub{
+    color: red;
+}
+
+
+
+
+<!-- 
+<div class="owl-carousel slider">
+  <div class="item"><img src="https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_hybrid&w=740&q=80"></div>
+  <div class="item"><img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg"></div>
+  <div class="item"><img src="https://img.freepik.com/free-photo/beautiful-lake-mountains_395237-44.jpg?semt=ais_hybrid&w=740&q=80"></div>
+  <div class="item"><img src="https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png"></div>
+  <div class="item"><img src="https://cdn.pixabay.com/photo/2020/06/21/09/48/hill-5324149_640.jpg"></div>
+  <div class="item"><img src="https://cdn.pixabay.com/photo/2020/06/21/09/48/hill-5324149_640.jpg"></div>
+  <div class="item"><img src="https://thumbs.dreamstime.com/b/beautiful-view-nature-mountains-near-konigssee-lake-bavaria-germany-blue-sky-clouds-97444419.jpg"></div>
+  <div class="item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQaecJPFvhmnkXDKhqPHSF6wcmnPyIupM6ZQ&s"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+<script>
+ $(document).ready(function(){
+  $(".slider").owlCarousel({
+    loop: false,
+    margin: 10,
+    nav: true,
+    dots: false,
+
+    slideBy: 4, 
+
+    responsive:{
+      0:{
+        items:1,
+        slideBy:1
+      },
+      600:{
+        items:2,
+        slideBy:2
+      },
+      1000:{
+        items:4,
+        slideBy:4
+      }
+    }
+  });
+});
+</script> -->
+
+
+
+
+.slider .item {
+  padding: 10px;
+}
+
+.slider .item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Navigation buttons style */
+.owl-nav button {
+  background: black !important;
+  color: white !important;
+  padding: 4px 15px !important;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
